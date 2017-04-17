@@ -1,5 +1,5 @@
 #!/bin/bash
-HERE='PWD'
+HERE=$PWD
 
 function kernel-update() {
     cp $HERE/*.dtb /boot/
